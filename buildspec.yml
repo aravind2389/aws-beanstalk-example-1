@@ -9,7 +9,7 @@ phases:
   post_build:
     commands: 
       - echo Successfully completed build phase
-      - mv target/* ./ROOT.war
+      - mv target/aws-elasticbeanstalk-example-1-0.0.1-SNAPSHOT.war ./ROOT.war
       - ls -ltr
 artifacts:
   files:
