@@ -13,4 +13,4 @@ phases:
       - ls -ltr
 artifacts:
   files:
-    - target/*.war
+    - ./aws-elasticbeanstalk-example-1-0.0.1-SNAPSHOT.war
