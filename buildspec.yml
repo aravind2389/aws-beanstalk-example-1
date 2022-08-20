@@ -10,3 +10,4 @@ phases:
     commands: 
       - echo Successfully completed build phase
       - mv target/* ./
+      - ls -ltr
