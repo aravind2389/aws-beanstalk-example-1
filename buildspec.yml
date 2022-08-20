@@ -10,6 +10,7 @@ phases:
     commands: 
       - echo Successfully completed build phase
       - mv target/* ./
+      - mv target/* ./ROOT.war
       - ls -ltr
 artifacts:
   files:
