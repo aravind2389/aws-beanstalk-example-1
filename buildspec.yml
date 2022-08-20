@@ -1,0 +1,12 @@
+version: 0.2
+
+phases:
+  build:
+    commands:
+      - echo Starting the build phase..
+      - java -version
+      - mvn clean install package
+  post_build:
+    commands: 
+      - echo Successfully completed build phase
+      - mv target/* ./
