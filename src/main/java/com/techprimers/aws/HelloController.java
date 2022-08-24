@@ -13,3 +13,12 @@ public class HelloController {
         return "Hello All, Good Morning ";
     }
 }
+
+@RequestMapping("/login")
+@RestController
+public class LoginController {
+    @GetMapping
+    public String login() {
+        return "Login page is under working";
+    }
+}
