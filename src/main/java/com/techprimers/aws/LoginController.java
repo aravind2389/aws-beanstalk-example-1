@@ -9,6 +9,6 @@ import org.springframework.web.bind.annotation.GetMapping;
 public class LoginController {
     @GetMapping
     public String login() {
-        return "/templates/index.html";
+        return "Login is page is under maintainence";
     }
 }
