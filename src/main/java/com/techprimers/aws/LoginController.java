@@ -4,12 +4,11 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.bind.annotation.GetMapping;
 
-@RequestMapping( {"/","/home"} )
+@RequestMapping("/login")
 @RestController
-public class HelloController {
-    
+public class LoginController {
     @GetMapping
-    public String hello() {
-        return "Hello All, Good Morning ";
+    public String login() {
+        return "Login page is under working";
     }
 }
